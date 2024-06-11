@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar section */
+nav h3{
+    color: white;
+}
+/* .navbar{
+    background-color: black;
+    opacity: 0.7;
+} */
+.navbar-brand{
+    letter-spacing: 2px;
+}
+
+.nav-active{
+    background-color:  #000;
+}
+
+.navbar-nav .nav-item .nav-link{
+    font-weight: 600;
+}
+
+.nav-active .navbar-brand h3,
+.nav-active .nav-link,
+.nav-active .dropdown-item{
+    color: #fff;
+}
+
+
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: orange;
+    padding-bottom: 5px;
+    border-bottom: 1px solid orange;
+    padding-left: 100px;
+}
+
+.navbar-toggler-icon:focus{
+    box-shadow: none;
+}
+.navbar-toggler-icon{
+    border-color: white;
+}
+
+/* Hero section */
+#hero{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+.hero-text{
+    padding-top: 250px;
+}
+.hero-text .btn1{
+    border-color: white;
+    color: white;
+}
+.hero-text .btn1:hover{
+    border-color: white;
+    background: white;
+    color: black;
+}
+.hero-text .btn2{
+    border-color: transparent;
+    color: white;
+}
+.hero-text h1{
+    font-size: 52px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+/* Dog life section */
+#dog-life{
+    margin-top: 100px;
+}
+
+/* Owner section */
+#owner{
+    margin-top: 100px;
+    background-color: whitesmoke;
+}
+
+.owner-title{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.card{
+    border-color: transparent;
+}
+.card-img{
+    border-radius: 0;
+}
+.card-body{
+    border-radius: 0;
+}
+.owner-content{
+    padding-bottom: 120px;
+}
+.card .card-img img{
+    transition: all 0.3 ease-in;
+}
+.card .card-img:hover img{
+    transform: scale(1.2);
+}
+.card .card-img{
+    overflow: hidden;
+}
+
+/* Breed section */
+#breed{
+    padding-top: 100px;
+}
+
+.breed-content{
+    margin-top: 100px;
+}
+
+.breed-content .image{
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.breed-content .image:hover img{
+    transform: scale(1.15);
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    color: white;
+    overflow-y: hidden;
+    font-size: 36px;
+    padding-bottom: -1;
+}
+
+.image:hover .overlay{
+    opacity: 1;
+}
+
+
+/* Blog section */
+#blog{
+    padding-top: 130px;
+}
+.blog-content{
+    margin-top: 100px;
+}
+
+.blog-content h5 a{
+    text-decoration: none;
+    color: orange;
+}
+
+.blog-content h5 a:hover{
+    opacity: 0.7;
+}
+
+/* Footer section */
+#footer{
+    margin-top: 100px;
+}
+.footer-content a{
+    text-decoration: none;
+    color: orange;
+}
+.footer-content a:hover{
+    color: white;
+    padding-bottom: 5px;
+    border-bottom: 1px solid grey;
+ 
+}
+.footer-title{
+    padding-top: 50px;
+}
+.footer-content i:hover{
+    color: white;
+}
+.footer-end a{
+    text-decoration: none;
+    color: orange;
+}
+.footer-end a:hover{
+    color: white;
+    padding-bottom: 5px;
+    border-bottom: 1px solid grey;
+}
